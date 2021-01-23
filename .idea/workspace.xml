@@ -40,6 +40,7 @@
       <change afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/android/home_rental_android.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611368851295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Home App">
+      <created>1611369043265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611369043265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,18 +187,18 @@
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1611368730387">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1611369043100">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611368730387" />
-    <state x="407" y="73" key="RollbackChangesDialog" timestamp="1611367683686">
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611369043100" />
+    <state x="407" y="73" key="RollbackChangesDialog" timestamp="1611368975300">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="407" y="73" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1611367683686" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1611368778764">
+    <state x="407" y="73" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1611368975300" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1611369071097">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611368778764" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611369071097" />
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611368821283">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
