@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // A widget that detects gestures. Attempts to recognize gestures that correspond to its non-null callbacks. ...
     //  GestureDetector also listens for accessibility events and maps them to the callbacks.
-    // You can use GestureDetector for monitoring single Tap , double Tap and a long press
+    // You can use GestureDetector for monitoring single Tap, double Tap and a long press
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Service App',
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           buttonTheme: ButtonThemeData(
             buttonColor: Colors.black,
             shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+                RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
           ),
           textTheme: TextTheme(
             headline6: TextStyle(
@@ -50,3 +50,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+//fgg
