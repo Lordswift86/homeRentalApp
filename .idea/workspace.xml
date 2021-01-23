@@ -242,13 +242,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="0" key="CommitChangelistDialog2" timestamp="1611368730387">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="278" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611368730387" />
     <state x="407" y="73" key="RollbackChangesDialog" timestamp="1611367683686">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="407" y="73" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1611367683686" />
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1611367569225">
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2" timestamp="1611368778764">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611367569225" />
+    <state x="320" y="183" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611368778764" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611368821283">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1611368821283" />
+    <state x="485" y="337" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611368813205">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="485" y="337" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1440.900@0.0.1440.900" timestamp="1611368813205" />
   </component>
 </project>
