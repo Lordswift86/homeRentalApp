@@ -13,15 +13,16 @@ class MyTextField extends StatelessWidget {
   String myInitialCountryCode;
   TextEditingController myTextController;
 
-  MyTextField({this.myKeyboardType,
-    @required this.myLabelText,
-    @required this.myHintText,
-    @required this.myValidators,
-    this.myInitialCountryCode,
-    this.myOnSaved,
-    this.myOnChanged,
-    this.myTextController,
-    this.myObscureText});
+  MyTextField(
+      {this.myKeyboardType,
+      @required this.myLabelText,
+      @required this.myHintText,
+      @required this.myValidators,
+      this.myInitialCountryCode,
+      this.myOnSaved,
+      this.myOnChanged,
+      this.myTextController,
+      this.myObscureText});
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +32,7 @@ class MyTextField extends StatelessWidget {
       keyboardAppearance: Brightness.dark,
       decoration: InputDecoration(
         labelText: myLabelText,
-        // labelStyle: TextStyle(color: Colors.blueAccent),
+        labelStyle: TextStyle(color: Colors.grey),
         hintText: myHintText,
         // hintStyle: TextStyle(color: Colors.grey),
         errorBorder: OutlineInputBorder(
