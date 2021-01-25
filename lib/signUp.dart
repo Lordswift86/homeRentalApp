@@ -124,7 +124,11 @@ class _SignUpState extends State<SignUp> {
                 SizedBox(
                   height: 40,
                 ),
-                Buttons1("Submit", () {}, Color.fromRGBO(39, 68, 144, 100))
+                Buttons1(
+                  "Submit",
+                  () {},
+                  Color.fromRGBO(39, 68, 144, 100),
+                ),
               ],
             ),
           ),
