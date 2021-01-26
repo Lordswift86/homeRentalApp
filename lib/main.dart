@@ -16,15 +16,16 @@ class MyApp extends StatelessWidget {
       title: 'Service App',
       // the configuration of the overall visual Theme for a MaterialApp or a widget subtree within the app.
       theme: ThemeData(
-          backgroundColor: Colors.white,
+          backgroundColor: Colors.blue,
           fontFamily: 'Lato',
-          brightness: Brightness.dark,
-          primarySwatch: Colors.blue,
+          //brightness: Brightness.dark,
+          primarySwatch: Colors.deepPurple,
           accentColor: Colors.blueAccent,
           buttonTheme: ButtonThemeData(
             buttonColor: Colors.black,
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
+            ),
           ),
           textTheme: TextTheme(
             headline6: TextStyle(
@@ -40,11 +41,11 @@ class MyApp extends StatelessWidget {
             textTheme: TextTheme(
               headline6: TextStyle(
                   color: Colors.white,
-                  fontSize: 14,
-                  fontFamily: 'OpenSans',
-                  fontWeight: FontWeight.w300),
+                  fontSize: 60,
+                  fontFamily: 'Satisfy',
+                  fontWeight: FontWeight.w800),
             ),
-            color: Colors.white,
+            color: Colors.blue[700],
           )),
       home: SignUp(),
     );
