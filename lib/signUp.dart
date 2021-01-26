@@ -9,7 +9,7 @@ class SignUp extends StatefulWidget {
 }
 
 class _SignUpState extends State<SignUp> {
-  final appBarHeight = 120.0;
+  final appBarHeight = 100.0;
   var email;
   var fullName;
   var password;
@@ -29,10 +29,12 @@ class _SignUpState extends State<SignUp> {
       // child: StreamProvider<User>.value(
       //   value: AuthService().user,
       child: Scaffold(
-        backgroundColor: Colors.black,
+        //backgroundColor: Colors.black,
         appBar: PreferredSize(
           preferredSize: Size.fromHeight(appBarHeight),
-          child: MyAppBar(Text('The Nest')),
+          child: MyAppBar(
+            Text('The Nest'),
+          ),
         ),
         body: SingleChildScrollView(
           child: Form(
@@ -85,7 +87,7 @@ class _SignUpState extends State<SignUp> {
                       myKeyboardType: TextInputType.emailAddress,
                       myObscureText: true,
                       myOnSaved: (value) {
-                        if (value == password);
+                        if (value == password) ;
                       }),
                 ),
               ],

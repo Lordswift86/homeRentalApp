@@ -8,7 +8,7 @@ class MyAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      backgroundColor: Colors.grey[900],
+      //backgroundColor: Colors.grey[900],
       title: appBarTitle,
       centerTitle: true,
     );
