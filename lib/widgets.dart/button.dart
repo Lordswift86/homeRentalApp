@@ -16,15 +16,15 @@ class Buttons1 extends StatelessWidget {
         height: 50,
         child: RaisedButton(
           elevation: 20,
-          color: myColor,
+          color: Colors.blue[700],
           onPressed: buttonPressed,
           child: Text(
             buttonLabel,
             style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.w500,
-              fontSize: 16,
-            ),
+                color: Colors.white,
+                fontWeight: FontWeight.w500,
+                fontSize: 18,
+                fontFamily: "Lato"),
           ),
         ),
       ),

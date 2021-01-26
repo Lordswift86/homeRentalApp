@@ -15,7 +15,7 @@ class MyTextField extends StatelessWidget {
 
   MyTextField(
       {this.myKeyboardType,
-      @required this.myLabelText,
+      this.myLabelText,
       @required this.myHintText,
       @required this.myValidators,
       this.myInitialCountryCode,
@@ -36,11 +36,12 @@ class MyTextField extends StatelessWidget {
         hintText: myHintText,
         // hintStyle: TextStyle(color: Colors.grey),
         errorBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: Colors.redAccent),
-        ),
+            // borderSide: BorderSide(color: Colors.redAccent),
+            ),
       ),
       // The validator receives the text that the user has entered.
       validator: myValidators,
+      autovalidateMode: AutovalidateMode.onUserInteraction,
       // (value) {
       //   if (value.isEmpty) {
       //     return 'The fields can\'t be empty';
